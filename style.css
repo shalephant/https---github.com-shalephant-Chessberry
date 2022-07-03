@@ -151,20 +151,23 @@ header {
     gap: 10px;  
     cursor: pointer; 
 }
-.get-started:hover {
-    
+ /*get started button border after hover */
+.get-started:hover {   
     border: 4px solid rgba(194, 165, 249, 0.8);
     margin-top: -2px;
     margin-left: -2px;
 }
 
+ /*next button border after hover */
 .next:hover {   
     border: 4px solid rgba(194, 165, 249, 0.8);
     margin-top: -2px;
     margin-left: -2px;
 }
+
+ /*back button background after hover */
 .back:hover {   
-    box-sizing: border-box;
+    
     background: rgba(185, 180, 196, 0.3);
     border: 1px solid rgba(194, 165, 249, 0.8);
 }
@@ -174,10 +177,9 @@ header {
 }
 
 .right-part-p2 {
-    font-family: 'Open sans';
-   
-    
+    font-family: 'Open sans';    
 }
+
 .wassup {
     width: 997px;
     height: 70.875px;
